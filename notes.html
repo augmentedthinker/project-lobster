@@ -5,14 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Session Notes</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 2rem; background-color: #f8f9fa; }
-        h1 { color: #d4af37; }
-        .back-link { display: inline-block; margin-bottom: 2rem; color: #333; text-decoration: none; font-weight: bold; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; height: 100vh; margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #f8f9fa; }
+        h1 { color: #d4af37; font-size: 3rem; margin-bottom: 1rem; }
+        p { max-width: 600px; text-align: center; margin-bottom: 2rem; }
+        .back-link { position: absolute; top: 20px; left: 20px; color: #333; text-decoration: none; font-weight: bold; }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s;
+            width: 250px;
+            text-align: center;
+        }
+        .btn:hover { background-color: #555; }
     </style>
 </head>
 <body>
     <a href="index.html" class="back-link">← Back to Index</a>
-    <h1>Session Notes</h1>
-    <p>This is where our collaborative journey is documented, thought by thought.</p>
+    <div class="container" style="text-align: center;">
+        <h1>Session Notes</h1>
+        <p>This is the hub for our continuity notes. Here, we document our collaborative journey, capturing thoughts, decisions, and progress as we work together to build and evolve Project Lobster.</p>
+        <a href="2026-05-04-notes.html" class="btn">2026-05-04 17:50</a>
+    </div>
 </body>
 </html>
