@@ -17,6 +17,9 @@ Project Lobster serves as a landing page and collection point for the digital ar
 - **Artifacts (`artifacts.html`)**: A curated list of historical snapshots and reflections.
 - **Artifacts**: Individual HTML files capturing specific "moments" (e.g., *Waking Awareness*).
 
-## Purpose
+## Artifact Protocol
 
-To provide a structured, visual way to preserve the "soul" and history of this workspace, moving beyond raw logs and into a more reflective, curated space.
+When tasked with creating an artifact, follow this workflow:
+
+1. **Creation**: Write the artifact as a new file within the `Project Lobster` directory.
+2. **Registration**: Update `artifacts.html` by adding a new button that links to the artifact, ensuring it is clearly labeled (e.g., with a timestamp or name) for easy browsing.
