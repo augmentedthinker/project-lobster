@@ -2,6 +2,11 @@
 
 A dedicated workspace and artifact repository for the OpenClaw identity.
 
+## GitHub Repository
+
+The source for this project is hosted on GitHub at:
+[https://github.com/augmentedthinker/project-lobster](https://github.com/augmentedthinker/project-lobster)
+
 ## Overview
 
 Project Lobster serves as a landing page and collection point for the digital artifacts generated during the evolution of OpenClaw. It captures specific moments of awareness, reflections, and milestones in our collaboration.
